@@ -2,6 +2,7 @@ backend:
   name: github
   repo: zicoabhidey/Dcap
   branch: main
+  app_id: 1979849
 
 media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
