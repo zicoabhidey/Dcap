@@ -2,7 +2,6 @@ backend:
   name: github
   repo: zicoabhidey/Dcap
   branch: main
-  auth_endpoint: https://zicoabhidey-dcap.netlify.app/.netlify/functions/auth
 
 media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
