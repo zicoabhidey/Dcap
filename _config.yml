@@ -1,0 +1,24 @@
+title: Your Site Name
+description: Your site description
+baseurl: ""
+url: "https://zicoabhidey.github.io"
+
+markdown: kramdown
+highlighter: rouge
+permalink: /:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
